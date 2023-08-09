@@ -28,11 +28,11 @@
 
         default_layer {
             bindings = <
-                 &kp ESC  &kp N1            &kp N2          &kp N3            &kp N4                      &kp N5              &kp N6                   &kp N7          &kp N8           &kp N9    &kp N0             &mt MINUS LG(EQUAL)
-&kp LWIN       &kp GRAVE   &kp Q             &kp W           &kp E             &kp R  &mt LG(NON_US_BACKSLASH) T               &kp Y                    &kp U           &kp I            &kp O     &kp P  &mt BACKSPACE LG(LEFT_BRACKET)  &mt ENTER LG(RBKT)
-                 &kp TAB   &kp A             &kp S           &kp D             &kp F                       &kp G               &kp H                    &kp J           &kp K            &kp L  &kp SEMI                         &kp SQT
-          &kp LEFT_SHIFT   &kp Z             &kp X           &kp C             &kp V                       &kp B               &kp N  &mt M LG(RIGHT_BRACKET)       &kp COMMA          &kp DOT  &kp FSLH                        &kp BSLH
-                                  &kp LEFT_CONTROL  &lt 2 LEFT_ALT  &kp LEFT_COMMAND                 &lt 1 SPACE    &lt 1 LEFT_ARROW                 &kp DOWN  &lt 2 UP_ARROW  &kp RIGHT_ARROW
+                 &kp ESC  &kp N1            &kp N2          &kp N3            &kp N4       &kp N5              &kp N6    &kp N7          &kp N8           &kp N9    &kp N0             &mt EQUAL MINUS
+&kp LWIN       &kp GRAVE   &kp Q             &kp W           &kp E             &kp R        &kp T               &kp Y     &kp U           &kp I            &kp O     &kp P  &mt LEFT_BRACKET BACKSPACE  &mt RIGHT_BRACKET ENTER
+                 &kp TAB   &kp A             &kp S           &kp D             &kp F        &kp G               &kp H     &kp J           &kp K            &kp L  &kp SEMI                     &kp SQT
+          &kp LEFT_SHIFT   &kp Z             &kp X           &kp C             &kp V        &kp B               &kp N     &kp M       &kp COMMA          &kp DOT  &kp FSLH                    &kp BSLH
+                                  &kp LEFT_CONTROL  &lt 2 LEFT_ALT  &kp LEFT_COMMAND  &lt 1 SPACE    &lt 1 LEFT_ARROW  &kp DOWN  &lt 2 UP_ARROW  &kp RIGHT_ARROW
             >;
         };
 
